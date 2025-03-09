@@ -1,4 +1,4 @@
-### Producer-Consumer Problem Simulation via Thread Synchronization 
+# Producer-Consumer Problem Simulation via Thread Synchronization 
 
 Gabriella (Gabi) Bekhrad
 gabimbek@gmail.com
