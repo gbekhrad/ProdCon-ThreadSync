@@ -1,18 +1,17 @@
-Name: Gabriella (Gabi) Bekhrad
-Email: gbekhrad@chapman.edu
-ID: 2417841
+### Producer-Consumer Problem Simulation via Thread Synchronization 
 
-Title of Assignment: Programming Assignment 4 - Thread Synchronization
+Gabriella (Gabi) Bekhrad
+gabimbek@gmail.com
 
-Overview/Source Files:
+## Overview/Source Files:
 - prodcon.c: C program that uses threads and synchronization tools to simulate a producer-consumer problem.
 - buffer.h: Header file that contains the definitions for the buffer and item.
 - Checksum.c: C program that contains the checksum function, provided by Professor Springer in the assignment detail. 
 
-To compile:
+## To compile:
 gcc prodcon.c -o prodcon
 
-To run:
+## To run:
 ./prodcon <delay> <#producer threads> <#consumer threads>
 
 Note:
@@ -20,25 +19,25 @@ Note:
     <#producer threads> indicates number of threads 
     <#consumer threads> indicates the number of consumer threads
 
-Sample Input/Output: (only a little snippet of output, checked and approved by Professor)
+##Sample Input/Output: (only a little snippet of output, checked and approved by Professor)
 gcc prodcon.c -o prodcon
 ./prodcon 1 1 1
-Consumer verified item with checksum: 3683
-Consumer verified item with checksum: 4107
-Producer produced item with checksum: 3428
-Producer produced item with checksum: 3876
-Consumer verified item with checksum: 3428
-Producer produced item with checksum: 3647
-Consumer verified item with checksum: 3876
-Producer produced item with checksum: 3268
-Producer produced item with checksum: 4417
-Consumer verified item with checksum: 3647
-Consumer verified item with checksum: 3268
-Consumer verified item with checksum: 4417
-Exiting program.
-(because of sched_yield, it is running very fast and 2 lines may be present after the program exits.)
+Consumer verified item with checksum: 3683  
+Consumer verified item with checksum: 4107  
+Producer produced item with checksum: 3428  
+Producer produced item with checksum: 3876  
+Consumer verified item with checksum: 3428  
+Producer produced item with checksum: 3647  
+Consumer verified item with checksum: 3876  
+Producer produced item with checksum: 3268  
+Producer produced item with checksum: 4417  
+Consumer verified item with checksum: 3647  
+Consumer verified item with checksum: 3268  
+Consumer verified item with checksum: 4417  
+Exiting program.  
+(because of sched_yield, it is running very fast and 2 lines may be present after the program exits.)  
 
-Sources:
+##Sources:
 - https://www.geeksforgeeks.org/semaphores-in-process-synchronization/
 - https://dev.to/endeavourmonk/semaphore-in-operating-system-with-its-own-implementation-in-c-19ia
 - https://www.geeksforgeeks.org/multithreading-in-c/
