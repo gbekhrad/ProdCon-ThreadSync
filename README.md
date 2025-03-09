@@ -19,7 +19,7 @@ Note:
     <#producer threads> indicates number of threads 
     <#consumer threads> indicates the number of consumer threads
 
-## Sample Input/Output: (only a little snippet of output, checked and approved by Professor)
+## Sample Input/Output: (snippet)
 gcc prodcon.c -o prodcon
 ./prodcon 1 1 1
 Consumer verified item with checksum: 3683  
