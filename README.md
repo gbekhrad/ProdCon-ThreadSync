@@ -19,7 +19,7 @@ Note:
     <#producer threads> indicates number of threads 
     <#consumer threads> indicates the number of consumer threads
 
-##Sample Input/Output: (only a little snippet of output, checked and approved by Professor)
+## Sample Input/Output: (only a little snippet of output, checked and approved by Professor)
 gcc prodcon.c -o prodcon
 ./prodcon 1 1 1
 Consumer verified item with checksum: 3683  
@@ -37,7 +37,7 @@ Consumer verified item with checksum: 4417
 Exiting program.  
 (because of sched_yield, it is running very fast and 2 lines may be present after the program exits.)  
 
-##Sources:
+## Sources:
 - https://www.geeksforgeeks.org/semaphores-in-process-synchronization/
 - https://dev.to/endeavourmonk/semaphore-in-operating-system-with-its-own-implementation-in-c-19ia
 - https://www.geeksforgeeks.org/multithreading-in-c/
